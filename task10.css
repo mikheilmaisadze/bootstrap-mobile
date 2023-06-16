@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "roboto";
+    src: url("Roboto-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+
+main {
+    width: 414px;
+    height: 896px;
+    border-radius: 15px;
+    background-color: #FFF;
+    box-shadow: 6px 6px 25px 0px hsla(0, 0%, 40%, 0.251), -3px -4px 28px 0px hsla(0, 0%, 40%, 0.251);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 64px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 9px;
+    padding-bottom: 9px;
+}
+
+main div {
+    padding-left: 7px;
+    padding-right: 5px;
+    height: 20px;
+}
+
+.circle {
+    margin-inline-end: 1.5px;
+    font-size: 7px;
+}
+
+main div p {
+    font-size: 12px;
+}
+
+.blue {
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.battery {
+    display: block;
+    width: 20%;
+}
+
+main>img {
+    margin-top: 71px;
+    margin-bottom: 109px;
+}
+
+main h1 {
+    font-weight: 700;
+    font-size: 31px;
+    margin-bottom: 12px;
+}
+
+main h1+p {
+    color: #414141;
+    margin-bottom: 76px;
+}
+
+main h1+p+div {
+    height: 49px;
+    width: 244px;
+}
+
+.light {
+    width: 133px;
+    height: 49px;
+    border-radius: 24.5px;
+    background-color: #FFF;
+    box-shadow: 4px 4px 22px 0 hsla(0, 0%, 0%, 0.251);
+    font-weight: 500;
+    font-size: 23px;
+    color: #363636;
+    border: none;
+}
+
+.dark {
+    width: 244px;
+    height: 49px;
+    border-radius: 24.5px;
+    background-color: #C4C4C4;
+    color: #747474;
+    font-weight: 500;
+    font-size: 23px;
+    border: none;
+    padding-left: 120px;
+}
+
+hr {
+    width: 130px;
+    height: 6px;
+    background-color: #6D6D6D;
+    border-radius: 26px;
+}
+
+.bottom {
+    margin-top: 253px;
+    margin-inline-start: 9px;
+}
+
+.bottom button {
+   width: 46px;
+   height: 43px;
+   border-radius: 100%;
+   background: #FFF;
+   box-shadow: 2px 2px 4px 0 #64646440, -2px -2px 4px 0 #67676740;
+   border: none;
+}
+
+.bottom p {
+    font-weight: 500;
+    font-size: 20px;
+    color-interpolation-filters: #000;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    position: static;
+    width: 100% !important;
+    transform: translate(0);
+  }
+}
